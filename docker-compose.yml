@@ -1,1 +1,10 @@
+services:
+  recitation-app:
+    container_name: s26-recitation-container
+    image: s26-recitation
+    build: .
+    ports:
+      - "8080:8080"
+    cpus: 0.50
+    mem_limit: 512m
 
